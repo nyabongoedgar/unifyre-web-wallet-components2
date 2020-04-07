@@ -217,7 +217,7 @@ var ThemedText = function () {
       return React__default.createElement(
         "div",
         {
-          style: _extends({}, styles.commonText, styleSelector(styles), style),
+          // style={{ ...styles.commonText, ...styleSelector(styles), ...style }}
           className: className
         },
         _text
