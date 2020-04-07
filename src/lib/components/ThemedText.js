@@ -33,7 +33,7 @@ export class ThemedText {
     return (
       <div
         // style={{ ...styles.commonText, ...styleSelector(styles), ...style }}
-        className={className}
+        // className={className}
       >
         {text}
       </div>
